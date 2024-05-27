@@ -6,8 +6,8 @@ let valorInteiro2 = document.querySelector ("#valorInteiro2");
 let btCalcular = document.querySelector ("#btCalcular");
 
 function verificarTotal(){
-    let valorInteiroUm = parceInt(valorInteiro1.value);
-    let valorInteiroDois = parceInt(valorInteiro2.value);
+    let valorInteiroUm = parseInt(valorInteiro1.value);
+    let valorInteiroDois = parseInt(valorInteiro2.value);
     
 
     if( valorInteiroUm > valorInteiroDois ){
